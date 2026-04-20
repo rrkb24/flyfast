@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# npm cache
+.npm-cache/
+
+# scraper temp files
+scraper/delta_cache.json
+scraper/temp_*.js
+scraper/*.py

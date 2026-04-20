@@ -1,0 +1,19 @@
+{
+  "pull_frequency_minutes": 10,
+  "airports": [
+    {
+      "code": "IAH",
+      "name": "George Bush Intercontinental",
+      "apiUrl": "https://www.fly2houston.com/api/wait-times/iah",
+      "note": "(Endpoint placeholder) Using lightweight JSON GET",
+      "terminals": ["Terminal A", "Terminal B", "Terminal C", "Terminal D", "Terminal E"]
+    },
+    {
+      "code": "DFW",
+      "name": "Dallas Fort Worth International",
+      "apiUrl": "https://www.dfwairport.com/api/security-wait-times",
+      "note": "(Endpoint placeholder)",
+      "terminals": ["Terminal A", "Terminal B", "Terminal C", "Terminal D", "Terminal E"]
+    }
+  ]
+}
