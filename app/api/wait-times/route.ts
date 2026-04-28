@@ -1,26 +1,10 @@
 import { NextResponse } from "next/server";
-import { promises as fs } from 'fs';
-import path from 'path';
-
-/**
- * Serves wait times from public/wait_times.json (committed by GitHub Actions).
- * Falls back to live upstream fetch if the file doesn't exist yet.
- * 
- * Zero Firebase. Zero cost. The JSON is refreshed every 10 minutes by the
- * GitHub Action and committed to the repo.
- */
+import { db } from "../../lib/firebaseAdmin";
 
 const UPSTREAM_API = 'https://tsa.fromthetraytable.com/api/tsa/airports';
-
-async function readLocalData() {
-  try {
-    const filePath = path.join(process.cwd(), 'public', 'wait_times.json');
-    const raw = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(raw);
-  } catch {
-    return null;
-  }
-}
+const CACHE_COLLECTION = 'system_cache';
+const CACHE_DOC = 'latest_wait_times';
+const CACHE_DURATION_MS = 3 * 60 * 1000; // 3 minutes
 
 async function fetchFromUpstream(): Promise<Record<string, any[]>> {
   const airportsData: Record<string, any[]> = {};
@@ -52,56 +36,68 @@ async function fetchFromUpstream(): Promise<Record<string, any[]>> {
           }));
         }
       } catch {
-        // Skip airports that fail individually
+        // Skip individual failed airports
       }
     }
   } catch (err) {
     console.error('[API] Upstream fetch failed:', err);
   }
 
-  return airportsData;
+  // Sort keys
+  const sortedData: Record<string, any[]> = {};
+  Object.keys(airportsData).sort().forEach(key => {
+    sortedData[key] = airportsData[key];
+  });
+
+  return sortedData;
 }
 
 export async function GET() {
-  // Primary: read from the GitHub-committed JSON file
-  const localData = await readLocalData();
+  try {
+    const cacheRef = db.collection(CACHE_COLLECTION).doc(CACHE_DOC);
+    const doc = await cacheRef.get();
+    
+    const now = Date.now();
+    let isStale = true;
 
-  if (localData?.airports) {
-    // Transform from the file format to the dashboard format
-    const data: Record<string, any[]> = {};
-
-    for (const airport of localData.airports) {
-      if (airport.checkpoints.length === 0) continue;
-
-      data[airport.code] = airport.checkpoints.map((cp: any) => ({
-        terminal: cp.name,
-        waitTime: cp.waitMinutes ?? 0,
-        status: cp.status,
-        lanes: cp.lanes,
-      }));
+    // 1. Check if we have valid cache data
+    if (doc.exists) {
+      const data = doc.data();
+      const timestampMs = data?.timestampMs || 0;
+      
+      if (now - timestampMs < CACHE_DURATION_MS) {
+        isStale = false;
+        console.log('[Smart Cache] Returning cached data from Firestore (Fast)');
+        return NextResponse.json({
+          updated_at: new Date(timestampMs).toISOString(),
+          data: data?.airportsData || {},
+          isMock: false,
+          source: 'firebase_cache',
+        });
+      }
     }
 
-    return NextResponse.json({
-      updated_at: localData.updated_at,
-      data,
-      isMock: false,
-      source: 'github',
+    // 2. Data is stale or missing, fetch from upstream
+    console.log('[Smart Cache] Data stale. Fetching from TSA Upstream API...');
+    const freshData = await fetchFromUpstream();
+
+    // 3. Save to Firestore
+    await cacheRef.set({
+      timestampMs: now,
+      updatedAt: new Date(now).toISOString(),
+      airportsData: freshData,
     });
+    console.log('[Smart Cache] Saved fresh data to Firestore.');
+
+    return NextResponse.json({
+      updated_at: new Date(now).toISOString(),
+      data: freshData,
+      isMock: false,
+      source: 'upstream_fetch',
+    });
+
+  } catch (err: any) {
+    console.error('[Smart Cache Error]', err.message);
+    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
-
-  // Fallback: live fetch from upstream (first run before GitHub Action populates the file)
-  console.log('[API] No local data file, fetching from upstream...');
-  const upstreamData = await fetchFromUpstream();
-
-  const sortedData: Record<string, any[]> = {};
-  Object.keys(upstreamData).sort().forEach(key => {
-    sortedData[key] = upstreamData[key];
-  });
-
-  return NextResponse.json({
-    updated_at: new Date().toISOString(),
-    data: sortedData,
-    isMock: false,
-    source: 'upstream_fallback',
-  });
 }
