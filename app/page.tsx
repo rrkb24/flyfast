@@ -148,8 +148,12 @@ export default function FlyfastDashboard() {
                     </h2>
                     
                     <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
-                      {payload.data[airport].map((cp, idx) => {
-                        const status = getStatusColor(cp.waitTime);
+                      {payload.data[airport].map((cp: any, idx: number) => {
+                        const isClosed = cp.status === 'closed';
+                        const status = isClosed 
+                          ? { bg: 'bg-[#64748b]', border: 'border-[#64748b] hover:border-[#64748b]', text: 'text-[#64748b]', shadow: 'shadow-none', label: 'Closed' }
+                          : getStatusColor(cp.waitTime);
+                          
                         return (
                           <motion.div 
                             key={cp.terminal}
@@ -160,15 +164,29 @@ export default function FlyfastDashboard() {
                           >
                             <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                             
-                            <h3 className="text-[#cbd5e1] font-semibold text-sm lg:text-base tracking-widest mb-4 uppercase drop-shadow-md">
-                              {cp.terminal}
-                            </h3>
-                            <div className="flex items-baseline space-x-2">
-                              <span className={`text-6xl font-black tracking-tighter ${status.text} drop-shadow-lg`}>
-                                {cp.waitTime}
-                              </span>
-                              <span className="text-[#64748b] font-bold uppercase text-sm tracking-widest">min</span>
+                            <div className="mb-4">
+                              <h3 className="text-[#cbd5e1] font-semibold text-sm lg:text-base tracking-widest uppercase drop-shadow-md">
+                                {cp.terminal}
+                              </h3>
+                              <p className="text-[#38bdf8] text-xs font-bold tracking-widest uppercase mt-1">
+                                {cp.lanes && cp.lanes.length > 0 ? cp.lanes.join(', ') : 'STANDARD'}
+                              </p>
                             </div>
+                            
+                            {isClosed ? (
+                              <div className="flex items-baseline space-x-2">
+                                <span className={`text-5xl font-black tracking-tighter ${status.text} drop-shadow-md`}>
+                                  CLOSED
+                                </span>
+                              </div>
+                            ) : (
+                              <div className="flex items-baseline space-x-2">
+                                <span className={`text-6xl font-black tracking-tighter ${status.text} drop-shadow-lg`}>
+                                  {cp.waitTime}
+                                </span>
+                                <span className="text-[#64748b] font-bold uppercase text-sm tracking-widest">min</span>
+                              </div>
+                            )}
                             
                             <div className="mt-8 flex items-center space-x-3 bg-[#0f172a]/50 w-max px-4 py-2 rounded-full border border-white/5">
                               <div className={`w-3 h-3 rounded-full ${status.bg} ${status.shadow}`} />
