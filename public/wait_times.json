@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T23:19:14.221Z",
+  "updated_at": "2026-06-24T00:15:26.066Z",
   "airport_count": 36,
-  "active_count": 31,
+  "active_count": 32,
   "airports": [
     {
       "code": "ATL",
@@ -10,12 +10,12 @@
       "checkpoints": [
         {
           "name": "Domestic – Main",
-          "waitMinutes": 2,
+          "waitMinutes": 5,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.655Z"
+          "lastUpdated": "2026-06-24T00:14:10.799Z"
         },
         {
           "name": "Domestic – North",
@@ -24,16 +24,16 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.655Z"
+          "lastUpdated": "2026-06-24T00:14:10.799Z"
         },
         {
           "name": "Domestic – Lower North",
-          "waitMinutes": 0,
-          "status": "open",
+          "waitMinutes": null,
+          "status": "closed",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.655Z"
+          "lastUpdated": "2026-06-24T00:14:10.799Z"
         },
         {
           "name": "Domestic – South",
@@ -42,16 +42,16 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.655Z"
+          "lastUpdated": "2026-06-24T00:14:10.799Z"
         },
         {
           "name": "International – Main",
-          "waitMinutes": 14,
+          "waitMinutes": 5,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.655Z"
+          "lastUpdated": "2026-06-24T00:14:10.799Z"
         }
       ],
       "error": null
@@ -68,7 +68,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.995Z"
+          "lastUpdated": "2026-06-24T00:14:10.765Z"
         }
       ],
       "error": null
@@ -80,99 +80,99 @@
       "checkpoints": [
         {
           "name": "Checkpoint 1: A Gates",
-          "waitMinutes": 7,
+          "waitMinutes": 8,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:00.000Z"
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
         },
         {
           "name": "Checkpoint 1: A Gates",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
+        },
+        {
+          "name": "Checkpoint 2: A Gates PreCheck Only",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-06-24T00:13:00.000Z"
+        },
+        {
+          "name": "Checkpoint 3: Gates B1 - B22",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [],
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
+        },
+        {
+          "name": "Checkpoint 3: Gates B1 - B22",
           "waitMinutes": 0,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
-        },
-        {
-          "name": "Checkpoint 2: A Gates PreCheck Only",
-          "waitMinutes": 5,
-          "status": "open",
-          "lanes": [
-            "TSA Pre✓"
-          ],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
-        },
-        {
-          "name": "Checkpoint 3: Gates B1 - B22",
-          "waitMinutes": 1,
-          "status": "open",
-          "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
-        },
-        {
-          "name": "Checkpoint 3: Gates B1 - B22",
-          "waitMinutes": 1,
-          "status": "open",
-          "lanes": [
-            "TSA Pre✓"
-          ],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
+          "lastUpdated": "2026-06-24T00:13:00.000Z"
         },
         {
           "name": "Checkpoint 4: Gates B23 - 40",
-          "waitMinutes": 2,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
         },
         {
           "name": "Checkpoint 4: Gates B23 - 40",
-          "waitMinutes": 2,
+          "waitMinutes": 0,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
         },
         {
           "name": "Checkpoint 5: Terminal C",
-          "waitMinutes": 14,
+          "waitMinutes": 8,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
         },
         {
           "name": "Checkpoint 5: Terminal C",
-          "waitMinutes": 7,
+          "waitMinutes": 8,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
         },
         {
           "name": "Checkpoint 6: All E Gates",
-          "waitMinutes": 7,
-          "status": "open",
+          "waitMinutes": null,
+          "status": "closed",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
         },
         {
           "name": "Checkpoint 7: All E Gates",
-          "waitMinutes": 10,
+          "waitMinutes": 11,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
         },
         {
           "name": "Checkpoint 7: All E Gates",
-          "waitMinutes": 5,
+          "waitMinutes": 9,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:30.000Z"
+          "lastUpdated": "2026-06-24T00:12:30.000Z"
         }
       ],
       "error": null
@@ -181,8 +181,145 @@
       "code": "BWI",
       "name": "Baltimore/Washington International Airport",
       "city": "Baltimore, MD",
-      "checkpoints": [],
-      "error": "SUSPENDED: Wait time reporting has been temporarily suspended."
+      "checkpoints": [
+        {
+          "name": "Checkpoint A",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [],
+          "lastUpdated": "2026-06-23T20:00:48Z"
+        },
+        {
+          "name": "Checkpoint A",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "Priority"
+          ],
+          "lastUpdated": "2026-06-23T19:52:12Z"
+        },
+        {
+          "name": "Checkpoint A",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "CLEAR"
+          ],
+          "lastUpdated": "2026-06-23T09:22:00Z"
+        },
+        {
+          "name": "Checkpoint A",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-06-20T07:46:36Z"
+        },
+        {
+          "name": "Checkpoint B",
+          "waitMinutes": 8,
+          "status": "open",
+          "lanes": [],
+          "lastUpdated": "2026-06-23T20:07:48Z"
+        },
+        {
+          "name": "Checkpoint B",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "Priority"
+          ],
+          "lastUpdated": "2026-06-23T20:08:48Z"
+        },
+        {
+          "name": "Checkpoint B",
+          "waitMinutes": 2,
+          "status": "open",
+          "lanes": [
+            "CLEAR"
+          ],
+          "lastUpdated": "2026-06-23T20:08:48Z"
+        },
+        {
+          "name": "Checkpoint B",
+          "waitMinutes": 4,
+          "status": "open",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-06-23T20:08:48Z"
+        },
+        {
+          "name": "Checkpoint C",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [],
+          "lastUpdated": "2026-06-23T18:58:36Z"
+        },
+        {
+          "name": "Checkpoint C",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "Priority"
+          ],
+          "lastUpdated": "2026-06-23T16:45:12Z"
+        },
+        {
+          "name": "Checkpoint C",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "CLEAR"
+          ],
+          "lastUpdated": "2026-06-23T17:02:12Z"
+        },
+        {
+          "name": "Checkpoint C",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-05-27T04:58:00Z"
+        },
+        {
+          "name": "Checkpoint D/E",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [],
+          "lastUpdated": "2026-06-23T20:03:48Z"
+        },
+        {
+          "name": "Checkpoint D/E",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "Priority"
+          ],
+          "lastUpdated": "2026-06-23T20:08:48Z"
+        },
+        {
+          "name": "Checkpoint D/E",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "CLEAR"
+          ],
+          "lastUpdated": "2026-06-23T20:07:48Z"
+        },
+        {
+          "name": "Checkpoint D/E",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-06-23T19:57:48Z"
+        }
+      ],
+      "error": null
     },
     {
       "code": "CLE",
@@ -196,26 +333,25 @@
           "lanes": [
             "All Passengers"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.496Z"
+          "lastUpdated": "2026-06-24T00:14:10.622Z"
         },
         {
           "name": "Central Checkpoint",
           "waitMinutes": 15,
           "status": "open",
           "lanes": [
-            "Standard",
-            "TSA Pre✓"
+            "All Passengers"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.496Z"
+          "lastUpdated": "2026-06-24T00:14:10.622Z"
         },
         {
           "name": "South Checkpoint",
-          "waitMinutes": 15,
-          "status": "open",
+          "waitMinutes": null,
+          "status": "closed",
           "lanes": [
             "All Passengers"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.496Z"
+          "lastUpdated": "2026-06-24T00:14:10.622Z"
         }
       ],
       "error": null
@@ -227,39 +363,39 @@
       "checkpoints": [
         {
           "name": "Checkpoint 1",
-          "waitMinutes": 5,
-          "status": "open",
+          "waitMinutes": null,
+          "status": "closed",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:02.000Z"
+          "lastUpdated": "2026-06-24T00:10:01.000Z"
         },
         {
           "name": "Checkpoint 2",
-          "waitMinutes": 5,
-          "status": "open",
-          "lanes": [
-            "Standard"
-          ],
-          "lastUpdated": "2026-06-23T23:15:02.000Z"
-        },
-        {
-          "name": "Checkpoint 2",
-          "waitMinutes": 3,
-          "status": "open",
-          "lanes": [
-            "TSA Pre✓"
-          ],
-          "lastUpdated": "2026-06-23T23:15:02.000Z"
-        },
-        {
-          "name": "Checkpoint 3",
           "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:02.000Z"
+          "lastUpdated": "2026-06-24T00:10:01.000Z"
+        },
+        {
+          "name": "Checkpoint 2",
+          "waitMinutes": 9,
+          "status": "open",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-06-24T00:10:01.000Z"
+        },
+        {
+          "name": "Checkpoint 3",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "Standard"
+          ],
+          "lastUpdated": "2026-06-24T00:00:02.000Z"
         }
       ],
       "error": null
@@ -271,19 +407,19 @@
       "checkpoints": [
         {
           "name": "CVG Checkpoint",
-          "waitMinutes": 4,
+          "waitMinutes": 3,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:14:00.000Z"
+          "lastUpdated": "2026-06-24T00:09:00.000Z"
         },
         {
           "name": "CVG Checkpoint",
-          "waitMinutes": 2,
+          "waitMinutes": 5,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:14:00.000Z"
+          "lastUpdated": "2026-06-24T00:09:00.000Z"
         }
       ],
       "error": null
@@ -302,12 +438,12 @@
       "checkpoints": [
         {
           "name": "Terminal 1",
-          "waitMinutes": 7,
+          "waitMinutes": 6,
           "status": "open",
           "lanes": [
             "General"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.947Z"
+          "lastUpdated": "2026-06-24T00:14:11.036Z"
         },
         {
           "name": "Terminal 2 South",
@@ -316,7 +452,7 @@
           "lanes": [
             "General"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.947Z"
+          "lastUpdated": "2026-06-24T00:14:11.036Z"
         },
         {
           "name": "Terminal 2 South (PreCheck)",
@@ -325,7 +461,7 @@
           "lanes": [
             "TSA PreCheck"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.947Z"
+          "lastUpdated": "2026-06-24T00:14:11.036Z"
         },
         {
           "name": "Terminal 2 North",
@@ -334,7 +470,7 @@
           "lanes": [
             "General"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.947Z"
+          "lastUpdated": "2026-06-24T00:14:11.036Z"
         },
         {
           "name": "Terminal 2 North (PreCheck)",
@@ -343,7 +479,7 @@
           "lanes": [
             "TSA PreCheck"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.947Z"
+          "lastUpdated": "2026-06-24T00:14:11.036Z"
         }
       ],
       "error": null
@@ -358,7 +494,7 @@
           "waitMinutes": 4,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:10.981Z"
+          "lastUpdated": "2026-06-24T00:14:11.078Z"
         },
         {
           "name": "East Security (PreCheck)",
@@ -367,14 +503,14 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.981Z"
+          "lastUpdated": "2026-06-24T00:14:11.078Z"
         },
         {
           "name": "West Security",
           "waitMinutes": 5,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:10.981Z"
+          "lastUpdated": "2026-06-24T00:14:11.078Z"
         },
         {
           "name": "West Security (PreCheck)",
@@ -383,7 +519,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.981Z"
+          "lastUpdated": "2026-06-24T00:14:11.078Z"
         }
       ],
       "error": null
@@ -395,21 +531,21 @@
       "checkpoints": [
         {
           "name": "Terminal A – Checkpoint A12",
-          "waitMinutes": 5,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-24T00:01:02.000Z"
         },
         {
           "name": "Terminal A – Checkpoint A12 (Priority)",
-          "waitMinutes": 2,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-23T23:23:03.000Z"
         },
         {
           "name": "Terminal A – Checkpoint A21",
@@ -418,25 +554,25 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:05:03.000Z"
+          "lastUpdated": "2026-06-23T23:46:02.000Z"
         },
         {
           "name": "Terminal A – Checkpoint A21 (Priority)",
-          "waitMinutes": 4,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-24T00:07:02.000Z"
         },
         {
           "name": "Terminal A – Checkpoint A21 (TSA Pre✓)",
-          "waitMinutes": 2,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:13:01.000Z"
+          "lastUpdated": "2026-06-24T00:04:03.000Z"
         },
         {
           "name": "Terminal A – Checkpoint A35",
@@ -445,7 +581,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:02:02.000Z"
+          "lastUpdated": "2026-06-24T00:11:03.000Z"
         },
         {
           "name": "Terminal A – Checkpoint A35 (Priority)",
@@ -454,16 +590,16 @@
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T22:25:05.000Z"
+          "lastUpdated": "2026-06-23T23:57:02.000Z"
         },
         {
           "name": "Terminal B – Checkpoint B30",
-          "waitMinutes": 2,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-24T00:13:03.000Z"
         },
         {
           "name": "Terminal B – Checkpoint B30 (Priority)",
@@ -481,7 +617,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T22:23:02.000Z"
+          "lastUpdated": "2026-06-23T23:20:02.000Z"
         },
         {
           "name": "Terminal B – Checkpoint B9",
@@ -490,7 +626,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:03.000Z"
+          "lastUpdated": "2026-06-23T23:58:03.000Z"
         },
         {
           "name": "Terminal B – Checkpoint B9 (Priority)",
@@ -499,7 +635,7 @@
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:05:03.000Z"
+          "lastUpdated": "2026-06-24T00:10:02.000Z"
         },
         {
           "name": "Terminal B – Checkpoint B9 (TSA Pre✓)",
@@ -571,7 +707,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:09:02.000Z"
+          "lastUpdated": "2026-06-24T00:12:02.000Z"
         },
         {
           "name": "Terminal C – Checkpoint C20 (TSA Pre✓)",
@@ -584,12 +720,12 @@
         },
         {
           "name": "Terminal D – Checkpoint D18",
-          "waitMinutes": 5,
+          "waitMinutes": 11,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-24T00:13:03.000Z"
         },
         {
           "name": "Terminal D – Checkpoint D18 (TSA Pre✓)",
@@ -602,12 +738,12 @@
         },
         {
           "name": "Terminal D – Checkpoint D22",
-          "waitMinutes": 12,
+          "waitMinutes": 5,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-24T00:13:03.000Z"
         },
         {
           "name": "Terminal D – Checkpoint D30",
@@ -620,12 +756,12 @@
         },
         {
           "name": "Terminal D – Checkpoint D30 (TSA Pre✓)",
-          "waitMinutes": 2,
+          "waitMinutes": 4,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:14:01.000Z"
+          "lastUpdated": "2026-06-24T00:13:03.000Z"
         },
         {
           "name": "Terminal E – Checkpoint E16 (TSA Pre✓)",
@@ -643,7 +779,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:12:02.000Z"
+          "lastUpdated": "2026-06-24T00:06:02.000Z"
         },
         {
           "name": "Terminal E – Checkpoint E18 (TSA Pre✓)",
@@ -652,25 +788,25 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-24T00:06:02.000Z"
         },
         {
           "name": "Terminal E – Checkpoint E33",
-          "waitMinutes": 16,
-          "status": "open",
+          "waitMinutes": null,
+          "status": "closed",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-24T00:13:03.000Z"
         },
         {
           "name": "Terminal E – Checkpoint E33 (Priority)",
-          "waitMinutes": 2,
-          "status": "open",
+          "waitMinutes": null,
+          "status": "closed",
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:16:02.000Z"
+          "lastUpdated": "2026-06-24T00:13:03.000Z"
         },
         {
           "name": "Terminal E – Checkpoint E8",
@@ -679,7 +815,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:14:01.000Z"
+          "lastUpdated": "2026-06-24T00:04:03.000Z"
         },
         {
           "name": "Terminal E – Checkpoint E8 (Priority)",
@@ -697,7 +833,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T22:40:02.000Z"
+          "lastUpdated": "2026-06-24T00:06:02.000Z"
         }
       ],
       "error": null
@@ -709,17 +845,17 @@
       "checkpoints": [
         {
           "name": "Evans",
-          "waitMinutes": 3,
+          "waitMinutes": 0,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.696Z"
+          "lastUpdated": "2026-06-24T00:14:11.737Z"
         },
         {
           "name": "McNamara",
-          "waitMinutes": 1,
+          "waitMinutes": 4,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.696Z"
+          "lastUpdated": "2026-06-24T00:14:11.737Z"
         }
       ],
       "error": null
@@ -731,21 +867,21 @@
       "checkpoints": [
         {
           "name": "Terminal A – All Gates (TSA Pre✓)",
-          "waitMinutes": 1,
+          "waitMinutes": 0,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal A – All Gates (Standard)",
-          "waitMinutes": 2,
+          "waitMinutes": 6,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal B – Gates 40-49 (TSA Pre✓)",
@@ -754,16 +890,16 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal B – Gates 40-49 (Standard)",
-          "waitMinutes": 1,
+          "waitMinutes": 4,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal B – Gates 51-57 (TSA Pre✓)",
@@ -772,16 +908,16 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:16:55.183Z"
+          "lastUpdated": "2026-06-24T00:14:07.733Z"
         },
         {
           "name": "Terminal B – Gates 51-57 (Standard)",
-          "waitMinutes": 13,
+          "waitMinutes": 7,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal B – Gates 60-68 (TSA Pre✓)",
@@ -790,34 +926,34 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:16:55.183Z"
+          "lastUpdated": "2026-06-24T00:14:07.733Z"
         },
         {
           "name": "Terminal B – Gates 60-68 (Standard)",
-          "waitMinutes": 12,
+          "waitMinutes": 20,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal C – All Gates (Standard)",
-          "waitMinutes": 16,
+          "waitMinutes": 3,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:16:05.977Z"
+          "lastUpdated": "2026-06-24T00:14:05.393Z"
         },
         {
           "name": "Terminal C – All Gates (TSA Pre✓)",
-          "waitMinutes": 8,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:16:05.977Z"
+          "lastUpdated": "2026-06-24T00:14:05.393Z"
         }
       ],
       "error": null
@@ -836,12 +972,12 @@
       "checkpoints": [
         {
           "name": "HOU Checkpoint",
-          "waitMinutes": 10,
+          "waitMinutes": 9,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:11.000Z"
+          "lastUpdated": "2026-06-24T00:08:10.000Z"
         },
         {
           "name": "HOU Checkpoint",
@@ -850,7 +986,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:11:09.000Z"
+          "lastUpdated": "2026-06-24T00:10:12.000Z"
         }
       ],
       "error": null
@@ -867,7 +1003,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:32.8098724Z"
+          "lastUpdated": "2026-06-24T00:00:32.745961Z"
         },
         {
           "name": "Main Checkpoint (PreCheck)",
@@ -876,7 +1012,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:32.8098724Z"
+          "lastUpdated": "2026-06-24T00:00:32.745961Z"
         }
       ],
       "error": null
@@ -893,16 +1029,16 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:08:09.000Z"
+          "lastUpdated": "2026-06-23T23:31:09.000Z"
         },
         {
           "name": "IAH Terminal A North Checkpoint",
-          "waitMinutes": 3,
+          "waitMinutes": 6,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:11:09.000Z"
+          "lastUpdated": "2026-06-24T00:11:09.000Z"
         },
         {
           "name": "IAH Terminal A South Standard",
@@ -911,7 +1047,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:11.000Z"
+          "lastUpdated": "2026-06-24T00:06:09.000Z"
         },
         {
           "name": "IAH Terminal C North Checkpoint",
@@ -924,12 +1060,12 @@
         },
         {
           "name": "IAH Terminal C North Premier",
-          "waitMinutes": 11,
+          "waitMinutes": 6,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:11.000Z"
+          "lastUpdated": "2026-06-24T00:11:09.000Z"
         },
         {
           "name": "IAH Terminal C South Standard",
@@ -938,25 +1074,25 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:11.000Z"
+          "lastUpdated": "2026-06-24T00:10:12.000Z"
         },
         {
           "name": "IAH Terminal D Standard",
-          "waitMinutes": 8,
+          "waitMinutes": 11,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:11.000Z"
+          "lastUpdated": "2026-06-24T00:10:12.000Z"
         },
         {
           "name": "IAH Terminal E Standard",
-          "waitMinutes": 16,
+          "waitMinutes": 9,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:11.000Z"
+          "lastUpdated": "2026-06-24T00:11:09.000Z"
         },
         {
           "name": "IAH Terminal E Checkpoint",
@@ -977,28 +1113,28 @@
       "checkpoints": [
         {
           "name": "JAX Checkpoint",
-          "waitMinutes": 9,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.295Z"
+          "lastUpdated": "2026-06-24T00:14:11.370Z"
         },
         {
           "name": "JAX Checkpoint",
-          "waitMinutes": 4,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.295Z"
+          "lastUpdated": "2026-06-24T00:14:11.370Z"
         },
         {
           "name": "JAX Checkpoint",
-          "waitMinutes": 4,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.295Z"
+          "lastUpdated": "2026-06-24T00:14:11.370Z"
         }
       ],
       "error": null
@@ -1010,21 +1146,21 @@
       "checkpoints": [
         {
           "name": "Terminal 1 – All Gates (Priority)",
-          "waitMinutes": 3,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 1 – All Gates (Standard)",
-          "waitMinutes": 15,
+          "waitMinutes": 11,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 1 – All Gates (TSA Pre✓)",
@@ -1033,7 +1169,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 4 – All Gates (CLEAR)",
@@ -1042,25 +1178,25 @@
           "lanes": [
             "CLEAR"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 4 – All Gates (Standard)",
-          "waitMinutes": 27,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 4 – All Gates (TSA Pre✓)",
-          "waitMinutes": 3,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 5 – All Gates (Priority)",
@@ -1069,43 +1205,43 @@
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 5 – All Gates (Standard)",
-          "waitMinutes": 25,
+          "waitMinutes": 14,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 5 – All Gates (TSA Pre✓)",
-          "waitMinutes": 4,
+          "waitMinutes": 3,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 7 – All Gates (Priority)",
-          "waitMinutes": 6,
+          "waitMinutes": 3,
           "status": "open",
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 7 – All Gates (Standard)",
-          "waitMinutes": 7,
+          "waitMinutes": 8,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 8 – All Gates (Priority)",
@@ -1114,16 +1250,16 @@
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 8 – All Gates (Standard)",
-          "waitMinutes": 31,
+          "waitMinutes": 23,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         },
         {
           "name": "Terminal 8 – All Gates (TSA Pre✓)",
@@ -1132,7 +1268,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.374Z"
+          "lastUpdated": "2026-06-24T00:14:11.144Z"
         }
       ],
       "error": null
@@ -1149,7 +1285,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.172Z"
+          "lastUpdated": "2026-06-24T00:14:11.223Z"
         },
         {
           "name": "T1 - A/B Gates (PreCheck)",
@@ -1158,7 +1294,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.172Z"
+          "lastUpdated": "2026-06-24T00:14:11.223Z"
         },
         {
           "name": "T1 - C Gates",
@@ -1167,7 +1303,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.172Z"
+          "lastUpdated": "2026-06-24T00:14:11.223Z"
         },
         {
           "name": "T1 - C Gates (PreCheck)",
@@ -1176,7 +1312,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.172Z"
+          "lastUpdated": "2026-06-24T00:14:11.223Z"
         },
         {
           "name": "T1 - C/D Gates",
@@ -1185,7 +1321,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.172Z"
+          "lastUpdated": "2026-06-24T00:14:11.223Z"
         },
         {
           "name": "T1 - C/D Gates (PreCheck)",
@@ -1194,7 +1330,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.172Z"
+          "lastUpdated": "2026-06-24T00:14:11.223Z"
         },
         {
           "name": "T3 - D/E Gates",
@@ -1203,16 +1339,16 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.172Z"
+          "lastUpdated": "2026-06-24T00:14:11.223Z"
         },
         {
           "name": "T3 - D/E Gates (PreCheck)",
-          "waitMinutes": 2,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.172Z"
+          "lastUpdated": "2026-06-24T00:14:11.223Z"
         }
       ],
       "error": null
@@ -1224,12 +1360,12 @@
       "checkpoints": [
         {
           "name": "TBIT",
-          "waitMinutes": 7,
+          "waitMinutes": 6,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.761Z"
+          "lastUpdated": "2026-06-24T00:14:11.735Z"
         },
         {
           "name": "TBIT",
@@ -1238,7 +1374,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.761Z"
+          "lastUpdated": "2026-06-24T00:14:11.735Z"
         },
         {
           "name": "Terminal 7",
@@ -1247,7 +1383,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:32.6115384Z"
+          "lastUpdated": "2026-06-24T00:00:32.5477047Z"
         },
         {
           "name": "Terminal 7 (PreCheck)",
@@ -1256,7 +1392,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:32.6115384Z"
+          "lastUpdated": "2026-06-24T00:00:32.5477047Z"
         }
       ],
       "error": null
@@ -1268,12 +1404,12 @@
       "checkpoints": [
         {
           "name": "Terminal B – All Gates (Standard)",
-          "waitMinutes": 2,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:16:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal B – All Gates (TSA Pre✓)",
@@ -1282,7 +1418,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:16:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal C – All Gates (TSA Pre✓)",
@@ -1291,16 +1427,16 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:16:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         },
         {
           "name": "Terminal C – All Gates (Standard)",
-          "waitMinutes": 9,
+          "waitMinutes": 4,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:16:00Z"
+          "lastUpdated": "2026-06-24T00:13:00Z"
         }
       ],
       "error": null
@@ -1312,26 +1448,26 @@
       "checkpoints": [
         {
           "name": "South (Gates C230-C254)",
-          "waitMinutes": 7,
+          "waitMinutes": 5,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:14:14.000Z"
+          "lastUpdated": "2026-06-24T00:09:14.000Z"
         },
         {
           "name": "South (Gates C230-C254)",
-          "waitMinutes": 3,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:14:14.000Z"
+          "lastUpdated": "2026-06-24T00:09:14.000Z"
         },
         {
           "name": "West (Gates 1-59)",
-          "waitMinutes": 4,
+          "waitMinutes": 5,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:14:14.000Z"
+          "lastUpdated": "2026-06-24T00:09:14.000Z"
         },
         {
           "name": "West (Gates 1-59)",
@@ -1340,23 +1476,23 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:14:14.000Z"
+          "lastUpdated": "2026-06-24T00:09:14.000Z"
         },
         {
           "name": "East (Gates 70-129)",
-          "waitMinutes": 3,
+          "waitMinutes": 1,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:14:14.000Z"
+          "lastUpdated": "2026-06-24T00:09:14.000Z"
         },
         {
           "name": "East (Gates 70-129)",
-          "waitMinutes": 9,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:14:14.000Z"
+          "lastUpdated": "2026-06-24T00:09:14.000Z"
         }
       ],
       "error": null
@@ -1382,14 +1518,14 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
           "name": "10 (J2–J18, H3–H17)",
           "waitMinutes": 2,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:14:04Z"
+          "lastUpdated": "2026-06-23T23:33:04Z"
         },
         {
           "name": "10 (J2–J18, H3–H17)",
@@ -1398,14 +1534,14 @@
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:01:16Z"
         },
         {
           "name": "2 (D1–D60)",
-          "waitMinutes": 4,
+          "waitMinutes": 3,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
           "name": "2 (D1–D60)",
@@ -1414,7 +1550,7 @@
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
           "name": "2 (D1–D60)",
@@ -1459,19 +1595,19 @@
         },
         {
           "name": "5 (E1–E33, D1–D60)",
-          "waitMinutes": 3,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "CLEAR"
           ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
           "name": "5 (E1–E33, D1–D60)",
-          "waitMinutes": 10,
+          "waitMinutes": 3,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
           "name": "5 (E1–E33, D1–D60)",
@@ -1484,110 +1620,110 @@
         },
         {
           "name": "5 (E1–E33, D1–D60)",
-          "waitMinutes": 3,
-          "status": "open",
-          "lanes": [
-            "TSA Pre✓"
-          ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
-        },
-        {
-          "name": "6 (F1–F23)",
-          "waitMinutes": 3,
-          "status": "open",
-          "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:40Z"
-        },
-        {
-          "name": "6 (F1–F23)",
-          "waitMinutes": 3,
-          "status": "open",
-          "lanes": [
-            "Priority"
-          ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
-        },
-        {
-          "name": "7 (G1–G19)",
-          "waitMinutes": 2,
-          "status": "open",
-          "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:04Z"
-        },
-        {
-          "name": "7 (G1–G19)",
-          "waitMinutes": 2,
-          "status": "open",
-          "lanes": [
-            "Priority"
-          ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
-        },
-        {
-          "name": "8 (H3–H17, J2–J18)",
-          "waitMinutes": 2,
-          "status": "open",
-          "lanes": [
-            "CLEAR"
-          ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
-        },
-        {
-          "name": "8 (H3–H17, J2–J18)",
-          "waitMinutes": 2,
-          "status": "open",
-          "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:40Z"
-        },
-        {
-          "name": "8 (H3–H17, J2–J18)",
-          "waitMinutes": 2,
-          "status": "open",
-          "lanes": [
-            "Priority"
-          ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
-        },
-        {
-          "name": "8 (H3–H17, J2–J18)",
           "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
-          "name": "9 (H3–H17, J2–J18)",
-          "waitMinutes": 9,
-          "status": "open",
-          "lanes": [
-            "CLEAR"
-          ],
-          "lastUpdated": "2026-06-23T23:15:04Z"
-        },
-        {
-          "name": "9 (H3–H17, J2–J18)",
-          "waitMinutes": 9,
+          "name": "6 (F1–F23)",
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
-          "name": "9 (H3–H17, J2–J18)",
-          "waitMinutes": 8,
+          "name": "6 (F1–F23)",
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
+        },
+        {
+          "name": "7 (G1–G19)",
+          "waitMinutes": 3,
+          "status": "open",
+          "lanes": [],
+          "lastUpdated": "2026-06-24T00:12:04Z"
+        },
+        {
+          "name": "7 (G1–G19)",
+          "waitMinutes": 2,
+          "status": "open",
+          "lanes": [
+            "Priority"
+          ],
+          "lastUpdated": "2026-06-24T00:12:04Z"
+        },
+        {
+          "name": "8 (H3–H17, J2–J18)",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "CLEAR"
+          ],
+          "lastUpdated": "2026-06-24T00:12:04Z"
+        },
+        {
+          "name": "8 (H3–H17, J2–J18)",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [],
+          "lastUpdated": "2026-06-24T00:12:52Z"
+        },
+        {
+          "name": "8 (H3–H17, J2–J18)",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "Priority"
+          ],
+          "lastUpdated": "2026-06-24T00:12:04Z"
+        },
+        {
+          "name": "8 (H3–H17, J2–J18)",
+          "waitMinutes": null,
+          "status": "closed",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-06-24T00:12:04Z"
+        },
+        {
+          "name": "9 (H3–H17, J2–J18)",
+          "waitMinutes": 11,
+          "status": "open",
+          "lanes": [
+            "CLEAR"
+          ],
+          "lastUpdated": "2026-06-24T00:12:04Z"
+        },
+        {
+          "name": "9 (H3–H17, J2–J18)",
+          "waitMinutes": 12,
+          "status": "open",
+          "lanes": [],
+          "lastUpdated": "2026-06-24T00:12:52Z"
+        },
+        {
+          "name": "9 (H3–H17, J2–J18)",
+          "waitMinutes": 11,
+          "status": "open",
+          "lanes": [
+            "Priority"
+          ],
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
           "name": "FIS",
           "waitMinutes": 2,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:15:40Z"
+          "lastUpdated": "2026-06-24T00:12:52Z"
         },
         {
           "name": "FIS",
@@ -1613,16 +1749,16 @@
           "lanes": [
             "all passengers"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.369Z"
+          "lastUpdated": "2026-06-24T00:14:11.446Z"
         },
         {
           "name": "T1 South",
-          "waitMinutes": 10,
+          "waitMinutes": 5,
           "status": "open",
           "lanes": [
             "all passengers"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.369Z"
+          "lastUpdated": "2026-06-24T00:14:11.446Z"
         },
         {
           "name": "T2 Checkpoint 1",
@@ -1631,14 +1767,14 @@
           "lanes": [
             "all passengers"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.369Z"
+          "lastUpdated": "2026-06-24T00:14:11.446Z"
         },
         {
           "name": "T2 Checkpoint 2",
           "waitMinutes": null,
           "status": "closed",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.369Z"
+          "lastUpdated": "2026-06-24T00:14:11.446Z"
         }
       ],
       "error": null
@@ -1655,7 +1791,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.507Z"
+          "lastUpdated": "2026-06-24T00:14:10.630Z"
         },
         {
           "name": "Concourse B (North)",
@@ -1664,7 +1800,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.507Z"
+          "lastUpdated": "2026-06-24T00:14:10.630Z"
         }
       ],
       "error": null
@@ -1681,7 +1817,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:32.8908083Z"
+          "lastUpdated": "2026-06-24T00:00:32.8880931Z"
         },
         {
           "name": "Terminal 2 Checkpoint 5",
@@ -1690,7 +1826,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:32.8908083Z"
+          "lastUpdated": "2026-06-24T00:00:32.8880931Z"
         },
         {
           "name": "Terminal 2 Checkpoint 5",
@@ -1699,7 +1835,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:32.8908083Z"
+          "lastUpdated": "2026-06-24T00:00:32.8880931Z"
         },
         {
           "name": "Terminal 1 Checkpoint 2",
@@ -1708,7 +1844,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:32.8908083Z"
+          "lastUpdated": "2026-06-24T00:00:32.8880931Z"
         }
       ],
       "error": null
@@ -1727,21 +1863,21 @@
       "checkpoints": [
         {
           "name": "Checkpoint B/C",
-          "waitMinutes": 18,
-          "status": "open",
-          "lanes": [
-            "Standard"
-          ],
-          "lastUpdated": "2026-06-23T23:17:10.508Z"
-        },
-        {
-          "name": "Checkpoint B/C",
           "waitMinutes": 6,
           "status": "open",
           "lanes": [
+            "Standard"
+          ],
+          "lastUpdated": "2026-06-24T00:14:10.631Z"
+        },
+        {
+          "name": "Checkpoint B/C",
+          "waitMinutes": 3,
+          "status": "open",
+          "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.508Z"
+          "lastUpdated": "2026-06-24T00:14:10.631Z"
         },
         {
           "name": "Checkpoint D/E",
@@ -1750,7 +1886,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.508Z"
+          "lastUpdated": "2026-06-24T00:14:10.631Z"
         },
         {
           "name": "Checkpoint D/E",
@@ -1759,7 +1895,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:10.508Z"
+          "lastUpdated": "2026-06-24T00:14:10.631Z"
         }
       ],
       "error": null
@@ -1774,14 +1910,14 @@
           "waitMinutes": 4,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.891Z"
+          "lastUpdated": "2026-06-24T00:14:12.008Z"
         },
         {
           "name": "Terminal A-East",
           "waitMinutes": 3,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.891Z"
+          "lastUpdated": "2026-06-24T00:14:12.008Z"
         },
         {
           "name": "Terminal A-East",
@@ -1790,28 +1926,28 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.891Z"
+          "lastUpdated": "2026-06-24T00:14:12.008Z"
         },
         {
           "name": "Terminal B",
-          "waitMinutes": 6,
+          "waitMinutes": 5,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.891Z"
+          "lastUpdated": "2026-06-24T00:14:12.008Z"
         },
         {
           "name": "Terminal C",
           "waitMinutes": 2,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.891Z"
+          "lastUpdated": "2026-06-24T00:14:12.008Z"
         },
         {
           "name": "Terminal D/E",
           "waitMinutes": 3,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.891Z"
+          "lastUpdated": "2026-06-24T00:14:12.008Z"
         },
         {
           "name": "Terminal D/E",
@@ -1820,14 +1956,14 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.891Z"
+          "lastUpdated": "2026-06-24T00:14:12.008Z"
         },
         {
           "name": "Terminal F",
           "waitMinutes": 3,
           "status": "open",
           "lanes": [],
-          "lastUpdated": "2026-06-23T23:17:11.891Z"
+          "lastUpdated": "2026-06-24T00:14:12.008Z"
         }
       ],
       "error": null
@@ -1839,30 +1975,30 @@
       "checkpoints": [
         {
           "name": "T3",
+          "waitMinutes": 11,
+          "status": "open",
+          "lanes": [
+            "Standard"
+          ],
+          "lastUpdated": "2026-06-24T00:11:00Z"
+        },
+        {
+          "name": "T4 Checkpoint A",
           "waitMinutes": 7,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:13:00Z"
-        },
-        {
-          "name": "T4 Checkpoint A",
-          "waitMinutes": 8,
-          "status": "open",
-          "lanes": [
-            "Standard"
-          ],
-          "lastUpdated": "2026-06-23T23:13:00Z"
+          "lastUpdated": "2026-06-24T00:11:00Z"
         },
         {
           "name": "T4 Checkpoint B",
-          "waitMinutes": 8,
+          "waitMinutes": 6,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:13:00Z"
+          "lastUpdated": "2026-06-24T00:11:00Z"
         },
         {
           "name": "T4 Checkpoint C",
@@ -1871,16 +2007,16 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:13:00Z"
+          "lastUpdated": "2026-06-24T00:11:00Z"
         },
         {
           "name": "T4 Checkpoint D",
-          "waitMinutes": 7,
+          "waitMinutes": 8,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:13:00Z"
+          "lastUpdated": "2026-06-24T00:11:00Z"
         }
       ],
       "error": null
@@ -1892,12 +2028,12 @@
       "checkpoints": [
         {
           "name": "Standard",
-          "waitMinutes": 2,
+          "waitMinutes": null,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.526Z"
+          "lastUpdated": "2026-06-24T00:14:11.644Z"
         },
         {
           "name": "PreCheck",
@@ -1906,7 +2042,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.526Z"
+          "lastUpdated": "2026-06-24T00:14:11.644Z"
         },
         {
           "name": "CLEAR",
@@ -1915,7 +2051,7 @@
           "lanes": [
             "CLEAR"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.526Z"
+          "lastUpdated": "2026-06-24T00:14:11.644Z"
         },
         {
           "name": "Priority",
@@ -1924,7 +2060,7 @@
           "lanes": [
             "Priority"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.526Z"
+          "lastUpdated": "2026-06-24T00:14:11.644Z"
         }
       ],
       "error": null
@@ -1950,7 +2086,7 @@
             "TSA Pre✓",
             "CLEAR"
           ],
-          "lastUpdated": "2026-06-23T23:02:15.180Z"
+          "lastUpdated": "2026-06-23T23:56:18.160Z"
         },
         {
           "name": "Checkpoint 2",
@@ -1963,18 +2099,18 @@
         },
         {
           "name": "Checkpoint 3",
-          "waitMinutes": 4,
+          "waitMinutes": 3,
           "status": "open",
           "lanes": [
             "General",
             "TSA Pre✓",
             "Premium"
           ],
-          "lastUpdated": "2026-06-23T23:16:50.763Z"
+          "lastUpdated": "2026-06-24T00:12:50.777Z"
         },
         {
           "name": "Checkpoint 4",
-          "waitMinutes": 7,
+          "waitMinutes": 10,
           "status": "open",
           "lanes": [
             "General",
@@ -1982,7 +2118,7 @@
             "Premium",
             "Visitor Pass"
           ],
-          "lastUpdated": "2026-06-23T23:16:50.780Z"
+          "lastUpdated": "2026-06-24T00:12:50.777Z"
         },
         {
           "name": "Checkpoint 5",
@@ -1991,11 +2127,11 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:16:50.797Z"
+          "lastUpdated": "2026-06-24T00:12:50.807Z"
         },
         {
           "name": "Checkpoint 6",
-          "waitMinutes": 13,
+          "waitMinutes": 10,
           "status": "open",
           "lanes": [
             "General",
@@ -2003,7 +2139,7 @@
             "Premium",
             "CLEAR"
           ],
-          "lastUpdated": "2026-06-23T23:16:50.810Z"
+          "lastUpdated": "2026-06-24T00:12:50.823Z"
         }
       ],
       "error": null
@@ -2020,7 +2156,7 @@
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:52.7584027Z"
+          "lastUpdated": "2026-06-24T00:00:52.8643728Z"
         },
         {
           "name": "Terminal 2 Checkpoint D (PreCheck)",
@@ -2029,16 +2165,16 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:52.7584027Z"
+          "lastUpdated": "2026-06-24T00:00:52.8643728Z"
         },
         {
           "name": "Terminal 3 Checkpoint F",
-          "waitMinutes": 1,
+          "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:52.7584027Z"
+          "lastUpdated": "2026-06-24T00:00:52.8643728Z"
         },
         {
           "name": "Terminal 3 Checkpoint F (PreCheck)",
@@ -2047,34 +2183,34 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:52.7584027Z"
+          "lastUpdated": "2026-06-24T00:00:52.8643728Z"
         },
         {
           "name": "Int'l Terminal Checkpoint A",
-          "waitMinutes": 1,
-          "status": "open",
-          "lanes": [
-            "Standard"
-          ],
-          "lastUpdated": "2026-06-23T23:15:52.7584027Z"
-        },
-        {
-          "name": "Int'l Terminal Checkpoint A (PreCheck)",
-          "waitMinutes": 0,
-          "status": "open",
-          "lanes": [
-            "TSA Pre✓"
-          ],
-          "lastUpdated": "2026-06-23T23:15:52.7584027Z"
-        },
-        {
-          "name": "Int'l Terminal Checkpoint G",
           "waitMinutes": 2,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:15:52.7584027Z"
+          "lastUpdated": "2026-06-24T00:00:52.8643728Z"
+        },
+        {
+          "name": "Int'l Terminal Checkpoint A (PreCheck)",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "TSA Pre✓"
+          ],
+          "lastUpdated": "2026-06-24T00:00:52.8643728Z"
+        },
+        {
+          "name": "Int'l Terminal Checkpoint G",
+          "waitMinutes": 1,
+          "status": "open",
+          "lanes": [
+            "Standard"
+          ],
+          "lastUpdated": "2026-06-24T00:00:52.8643728Z"
         },
         {
           "name": "Int'l Terminal Checkpoint G (PreCheck)",
@@ -2083,7 +2219,7 @@
           "lanes": [
             "TSA Pre✓"
           ],
-          "lastUpdated": "2026-06-23T23:15:52.7584027Z"
+          "lastUpdated": "2026-06-24T00:00:52.8643728Z"
         }
       ],
       "error": null
@@ -2095,12 +2231,12 @@
       "checkpoints": [
         {
           "name": "Security Checkpoint",
-          "waitMinutes": 13,
+          "waitMinutes": 11,
           "status": "open",
           "lanes": [
             "Standard"
           ],
-          "lastUpdated": "2026-06-23T23:17:11.746Z"
+          "lastUpdated": "2026-06-24T00:14:11.730Z"
         }
       ],
       "error": null
